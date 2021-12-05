@@ -53,7 +53,6 @@ var fight = function() {
           window.alert(playerName + " has chosen to skip the fight!");
           // subtract money from playerMoney for Skipping
           playerMoney = playerMoney - 2;
-          console.log(playerName + " now has " + playerMoney + " player money available!")
         }
         // if no (false), ask question again by running fight() again
         else {
